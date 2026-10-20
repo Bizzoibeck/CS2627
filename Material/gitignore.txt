@@ -1,0 +1,29 @@
+.vscode/
+build/
+
+# ignore everything by default
+*
+
+# whitelist directories
+!*/
+
+# whitelist common filenames or filetypes
+![Mm]akefile
+!*.txt
+!*.tex
+!*.csv
+!*.md
+
+!*.h
+!*.c
+!*.sh
+!*.[sS]
+!*.asm
+!*.S
+!*.svg
+!*.typ
+
+!*.pdf
+!*.png
+!*.jpg
+!*.jpeg
