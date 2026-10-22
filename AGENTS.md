@@ -61,7 +61,9 @@ Deck: **`Sysprog`**. Für Anki-Zugriffe den Anki-Skill des Nutzers verwenden; is
    - **Altklausuren** und **Signaturenliste** (`Altklausuren/`): Wie wird das Thema geprüft
      (Code schreiben, Assembler-Trace, Register- und Stackinhalte, Erklärfragen, Fehler finden)?
      Was die Signaturenliste in der Klausur bereitstellt, muss nicht auswendig gelernt werden.
-5. Karten **direkt anlegen, ohne vorher nachzufragen**. Danach dem Nutzer eine kurze Liste zeigen
+5. Karten **direkt anlegen, ohne vorher nachzufragen**. **Danach prüfen, ob sie wirklich im Deck `Sysprog`
+   liegen** (`deck:Sysprog tag:claude`). Das Batch-Anlegen hat sie schon einmal trotz Angabe von `Sysprog`
+   im Deck „Standard“ abgelegt. In dem Fall die Karten nach `Sysprog` verschieben. Danach dem Nutzer eine kurze Liste zeigen
    (Vorderseite + Quelle). Anschließend anbieten, Anki mit AnkiWeb zu synchronisieren.
 6. `anki/LOG.md` ergänzen: Datum, Kapitel/Folienbereich, Anzahl der Karten, Stichworte.
 
