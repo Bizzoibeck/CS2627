@@ -74,5 +74,9 @@ Deck: **`Sysprog`**. Für Anki-Zugriffe den Anki-Skill des Nutzers verwenden; is
 - Mischung: Verständnis („Warum …?“, „Was passiert, wenn …?“), Anwendung (kleiner Code- oder
   Assembler-Ausschnitt: Was steht danach in `rax`/auf dem Stack?) und
   Klausur-Muster (Aufgabentypen aus Altklausuren in Kartengröße).
+- **Assembler nur in Intel-Syntax (NASM).** AT&T-Syntax ist nicht relevant, auch wenn Altklausuren sie
+  verwenden: Aufgaben daraus nach Intel übertragen.
+- Was in der Klausur als Hilfsmittel beiliegt (x86-Befehlsreferenz, Signaturenliste), nicht abfragen.
+  Stattdessen die Anwendung abfragen (richtige Register, signed/unsigned, Fallstricke).
 - Tags: `claude`, `kap<N>` (z. B. `kap1`), `vl-<YYYY-MM-DD>` sowie die Quelle
   `folie`, `uebung` und/oder `klausur`.

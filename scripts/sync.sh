@@ -18,7 +18,8 @@ if [[ -f "$ROOT/.env" ]]; then
   [[ -n "${SYSPROG_USER:-}" ]] && AUTH=(-u "$SYSPROG_USER:$SYSPROG_PASS")
 fi
 
-curl -sfL "${AUTH[@]}" "$PAGE_URL" -o "$ROOT/.page.html"
+curl -sfL -m 30 "${AUTH[@]}" "$PAGE_URL" -o "$ROOT/.page.html" \
+  || { echo "FEHLER: Kursseite nicht erreichbar ($PAGE_URL)" >&2; exit 1; }
 
 target_dir() {
   case "$1" in
