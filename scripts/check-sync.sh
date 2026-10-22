@@ -9,11 +9,11 @@ last_ts="$(date -j -f %Y-%m-%d "$last" +%s 2>/dev/null || date -d "$last" +%s 2>
 age_days=$(( ($(date +%s) - last_ts) / 86400 ))
 (( age_days < MAX_AGE_DAYS )) && exit 0
 
-echo "[SysProg-Sync] Letzter Abgleich vor $age_days Tagen ($last). Prüfe Webseite auf neue Dateien ..."
+echo "[Sync] Letzter Abgleich vor $age_days Tagen ($last). Prüfe Webseite auf neue Dateien ..."
 if out="$("$ROOT/scripts/sync.sh" 2>&1)"; then
   echo "$out"
-  echo "[SysProg-Sync] Falls neue Dateien geladen wurden: dem Nutzer mitteilen, README (Termine/Inhalte) prüfen und ggf. aktualisieren."
+  echo "[Sync] Falls neue Dateien geladen wurden: dem Nutzer mitteilen, README (Termine/Inhalte) prüfen und ggf. aktualisieren."
 else
-  echo "[SysProg-Sync] Abgleich fehlgeschlagen: $out"
+  echo "[Sync] Abgleich fehlgeschlagen: $out"
 fi
 exit 0
