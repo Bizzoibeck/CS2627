@@ -68,7 +68,9 @@ Literatur: Kernighan & Ritchie *The C Programming Language*; [C von A bis Z](htt
 ## Klausur
 
 - Schriftlich, 90 min, in Präsenz (Hörsaalgebäude Campus Poppelsdorf)
-- **1. Termin: Februar 2027**, **2. Termin: März 2027**. Einen **dritten Termin gibt es nicht**
+- **1. Termin: Mi 17.02.2027, 11:00–14:00**
+- **2. Termin: Do 11.03.2027, 09:00–12:00**
+- Angegeben ist das Zeitfenster der Raumreservierung, die Klausur selbst dauert 90 min. Raum folgt. Einen **dritten Termin gibt es nicht**
 - Offizielle Termine: <https://www.informatik.uni-bonn.de/de/studium/pruefungsamt/bekanntmachungen/pruefungstermine>
 - Bei Krankheit gelten die Hinweise des Prüfungsamts. Zusätzlich müssen die SysProg-Organisatoren per Mail informiert werden
 - Die Altklausuren (WS13/14 und WS14/15) decken nicht alle aktuellen Themen ab. Die Signaturenliste wichtiger Systemfunktionen (Stand 27.01.2025) liegt in `Altklausuren/`
@@ -84,7 +86,8 @@ Literatur: Kernighan & Ritchie *The C Programming Language*; [C von A bis Z](htt
 | 26.–30.10.2026 | Vorführung Blatt 1 |
 | ab 02.11.2026 | regelmäßige Übungen und Vorführungen |
 | 02.02.2027 | letzte Vorlesung |
-| Feb. / März 2027 | Klausur (1. / 2. Termin) |
+| **17.02.2027** | **Klausur, 1. Termin** (11–14 Uhr) |
+| **11.03.2027** | **Klausur, 2. Termin** (9–12 Uhr) |
 
 ---
 *Zuletzt mit der Webseite abgeglichen: siehe `../.last_sync`.*
