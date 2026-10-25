@@ -35,7 +35,8 @@ Die Skripte laufen unter macOS und Linux (bash und curl).
 1. **Neue Materialien prüfen:** Zu Beginn jeder neuen Anfrage `./scripts/check-sync.sh` ausführen, sofern das nicht bereits ein Hook erledigt hat (in Claude Code passiert das automatisch). Das Skript tut nichts, wenn der letzte erfolgreiche Abgleich weniger als 3 Tage zurückliegt. Schlägt ein Abgleich fehl, wird es bei der nächsten Anfrage erneut versucht.
 2. **Termine aktuell halten:** Wochenplan, „Nächste Abgaben“ und Klausurtabelle in der Root-`README.md` sowie die Modul-READMEs pflegen. Offizielle Klausurtermine stehen unter <https://bamainfo.informatik.uni-bonn.de/public/pa/20262-pruefungen.html> (wird auf der Prüfungsamt-Seite eingebettet).
 3. **Neue Dateien melden:** Zeilen mit `NEU/AKTUALISIERT:` und `NEUER LÖSUNGSORDNER:` dem Nutzer mitteilen. Die neuen PDFs lesen (z. B. mit `pdftotext`) und die `README.md` des Moduls aktualisieren: Termine, Abgabefristen, Inhalte, Tabelle „Termine & Fristen“.
-4. **Committen:** Neue Materialien und README-Änderungen nur auf Wunsch des Nutzers committen.
+4. **ToDo-Liste:** Oben in der Root-`README.md` steht die ToDo-Liste des Nutzers (`- [ ]`). Punkte nur auf seinen Wunsch ergänzen oder abhaken (`- [x]`) bzw. entfernen.
+5. **Committen:** Neue Materialien und README-Änderungen nur auf Wunsch des Nutzers committen.
 
 ## Zugangsdaten
 

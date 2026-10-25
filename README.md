@@ -1,5 +1,12 @@
 # Uni Bonn – WS 2026/27
 
+## ToDo
+
+- [ ] **KIVS:** Vorlesung vom Do 22.10. nacharbeiten ([Folien](kivs/Folien))
+- [ ] **SysProg Blatt 1, A3:** String- und Byteblock-Funktionen ([Blatt](sysprog/Übungszettel/Uebungsblatt01.pdf), [Ordner](sysprog/lösungen/übungszettel_01)), nur zur Übung
+- [ ] **SysProg Blatt 1, A6:** Fehlersuche bei Speicherverwaltung, nur zur Übung
+- [ ] **KIVS Zettel 01** ([Blatt](kivs/Übungszettel/kivs2026ex01.pdf)), Abgabe **So 01.11., 23:59**, im GitLab-Repo
+
 Vorlesungsmaterialien, Übungen und Anki-Ablauf für meine Module im WS 2026/27.
 
 | Modul | Ordner | Anki-Deck |
