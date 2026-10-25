@@ -24,7 +24,23 @@ target_dir() {
   esac
 }
 
-# Legt für jedes Übungsblatt <id>/lösungen/übungszettel_NN an (NN = erste Zahl im Dateinamen).
+# Entpackt in ein PDF eingebettete Dateien (Vorlagen, Tests) nach $2, mit ihrer Ordnerstruktur.
+extract_attachments() {
+  local pdf="$1" dest="$2" line idx name
+  command -v pdfdetach >/dev/null || return 0
+  while IFS= read -r line; do
+    [[ "$line" =~ ^([0-9]+):\ (.+)$ ]] || continue
+    idx="${BASH_REMATCH[1]}"; name="${BASH_REMATCH[2]}"
+    # Keine absoluten Pfade oder ".." aus dem PDF übernehmen
+    [[ "$name" == /* || "$name" == *..* ]] && name="$(basename "$name")"
+    mkdir -p "$dest/$(dirname "$name")"
+    pdfdetach -save "$idx" -o "$dest/$name" "$pdf" >/dev/null 2>&1 \
+      && echo "  eingebettete Datei: ${dest#$ROOT/}/$name"
+  done < <(pdfdetach -list "$pdf" 2>/dev/null)
+}
+
+# Legt für jedes Übungsblatt <id>/lösungen/übungszettel_NN an (NN = erste Zahl im Dateinamen)
+# und entpackt eingebettete Dateien nach vorgabe/.
 make_solution_dirs() {
   local id="$1" sheet num dir
   for sheet in "$ROOT/$id/Übungszettel"/*; do
@@ -37,6 +53,7 @@ make_solution_dirs() {
     printf '# Übungszettel %02d\n\nAufgabenblatt: [%s](../../Übungszettel/%s)\n' \
       "$((10#$num))" "$(basename "$sheet")" "$(basename "$sheet")" > "$dir/README.md"
     echo "NEUER LÖSUNGSORDNER: ${dir#$ROOT/}"
+    extract_attachments "$sheet" "$dir/vorgabe"
   done
 }
 

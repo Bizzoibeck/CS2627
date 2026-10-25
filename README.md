@@ -8,17 +8,25 @@ Vorlesungsmaterialien, Übungen und Anki-Ablauf für meine Module im WS 2026/27.
 | Kommunikation in verteilten Systemen (BA-INF 101) | [kivs/](kivs) | `KIVS` |
 
 Jedes Modul hat `Folien/`, `Übungszettel/`, `Altklausuren/`, `Material/` und `anki/LOG.md`.
-SysProg hat zusätzlich `lösungen/übungszettel_NN/` für die eigene Bearbeitung. Die Ordner werden automatisch angelegt, sobald ein Blatt erscheint.
+SysProg hat zusätzlich `lösungen/übungszettel_NN/` für die eigene Bearbeitung. Die Ordner werden automatisch angelegt, sobald ein Blatt erscheint. Eingebettete Vorlagen aus dem PDF landen dort in `vorgabe/`.
 
 ## Wochenplan
 
 | Tag | Zeit | Was | Ort |
 |---|---|---|---|
 | Di | 14:15–15:45 | SysProg Vorlesung | HSZ, HS 2 |
-| Do | 10:15–11:45 | KIVS Vorlesung | HSZ, HS 7 (unbestätigt) |
+| Do | 10:15–11:45 | KIVS Vorlesung | HSZ, HS 7 |
 | nach Gruppe | 90–120 min | SysProg Übung/Vorführung | U1.012 (CIP-Pool) |
+| nach TVS-Zuteilung | 2 h | KIVS Übung | U.039 (Mi 10–12: U.028) |
 
-Laufende Abgaben: SysProg-Blätter erscheinen mittwochs und sind **freitags 23:59** fällig (9 Tage später). Details stehen in der jeweiligen Modul-README.
+### Nächste Abgaben
+
+| Fällig | Modul | Blatt |
+|---|---|---|
+| **Fr 30.10.2026, 23:59** | SysProg | Übungsblatt 2 (Vorführung 02.–06.11.) |
+| **So 01.11.2026, 23:59** | KIVS | Übungszettel 01 (Präsentation 02.–04.11.) |
+
+In der Regel: SysProg-Blätter sind freitags 23:59 fällig, 9 Tage nach Erscheinen. KIVS-Blätter erscheinen donnerstags, Abgabe meist freitags 23:59. Details stehen in der jeweiligen Modul-README.
 
 ## Klausuren
 

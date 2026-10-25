@@ -83,7 +83,11 @@ Literatur: Kernighan & Ritchie *The C Programming Language*; [C von A bis Z](htt
 | 14.10.2026 | Übungsblatt 1, Ende der TVS-Anmeldung |
 | 19.–23.10.2026 | Orga-Tutorium, Flavius-Registrierung (Laptop mitbringen) |
 | **25.10.2026 23:59** | **Abgabe Blatt 1** (Ausnahme: Sonntag) |
+| 20.10.2026 | Übungsblatt 2 (Springerproblem, Fehlersuche/Debugger, Hello World in Assembler) |
 | 26.–30.10.2026 | Vorführung Blatt 1 |
+| 27.10.2026 | VL: Ergänzung Speicherverwaltung `malloc` & `free` |
+| **30.10.2026 23:59** | **Abgabe Blatt 2** |
+| 02.–06.11.2026 | Vorführung Blatt 2 |
 | ab 02.11.2026 | regelmäßige Übungen und Vorführungen |
 | 02.02.2027 | letzte Vorlesung |
 | **17.02.2027** | **Klausur, 1. Termin** (11–14 Uhr) |

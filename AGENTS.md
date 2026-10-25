@@ -22,7 +22,7 @@ Die wichtigsten Kursinfos (Termine, Fristen, Bewertung, Klausur) stehen in `<mod
 | `<modul>/Übungszettel/` | Übungsblätter |
 | `<modul>/Altklausuren/` | Altklausuren (bei SysProg zusätzlich die Signaturenliste) |
 | `<modul>/Material/` | Zusatzmaterial |
-| `<modul>/lösungen/übungszettel_NN/` | Eigene Bearbeitung der Übungsblätter (nur Module mit Lösungsordner = ja) |
+| `<modul>/lösungen/übungszettel_NN/` | Eigene Bearbeitung der Übungsblätter (nur Module mit Lösungsordner = ja). In `vorgabe/` liegen die in das PDF eingebetteten Dateien |
 | `<modul>/anki/LOG.md` | Protokoll, für welche Vorlesungen bereits Anki-Karten ergänzt wurden |
 | `scripts/sync.sh` | Lädt neue oder geänderte Dateien aller Module (oder `sync.sh <ordner>`) und sortiert sie nach URL-Pfad ein. Legt bei Bedarf Lösungsordner an |
 | `scripts/check-sync.sh` | Führt `sync.sh` aus, wenn der letzte erfolgreiche Abgleich (`.last_sync`) mindestens 3 Tage zurückliegt |
@@ -33,7 +33,7 @@ Die Skripte laufen unter macOS und Linux (bash und curl).
 ## Pflichten des Agenten
 
 1. **Neue Materialien prüfen:** Zu Beginn jeder neuen Anfrage `./scripts/check-sync.sh` ausführen, sofern das nicht bereits ein Hook erledigt hat (in Claude Code passiert das automatisch). Das Skript tut nichts, wenn der letzte erfolgreiche Abgleich weniger als 3 Tage zurückliegt. Schlägt ein Abgleich fehl, wird es bei der nächsten Anfrage erneut versucht.
-2. **Termine aktuell halten:** Wochenplan und Klausurtabelle in der Root-`README.md` sowie die Modul-READMEs pflegen. Offizielle Klausurtermine stehen unter <https://bamainfo.informatik.uni-bonn.de/public/pa/20262-pruefungen.html> (wird auf der Prüfungsamt-Seite eingebettet).
+2. **Termine aktuell halten:** Wochenplan, „Nächste Abgaben“ und Klausurtabelle in der Root-`README.md` sowie die Modul-READMEs pflegen. Offizielle Klausurtermine stehen unter <https://bamainfo.informatik.uni-bonn.de/public/pa/20262-pruefungen.html> (wird auf der Prüfungsamt-Seite eingebettet).
 3. **Neue Dateien melden:** Zeilen mit `NEU/AKTUALISIERT:` und `NEUER LÖSUNGSORDNER:` dem Nutzer mitteilen. Die neuen PDFs lesen (z. B. mit `pdftotext`) und die `README.md` des Moduls aktualisieren: Termine, Abgabefristen, Inhalte, Tabelle „Termine & Fristen“.
 4. **Committen:** Neue Materialien und README-Änderungen nur auf Wunsch des Nutzers committen.
 
@@ -51,7 +51,7 @@ Die Skripte laufen unter macOS und Linux (bash und curl).
 
 ### Lösungsordner
 
-- Für Module mit Lösungsordner = `ja` legt `sync.sh` pro Übungsblatt `<modul>/lösungen/übungszettel_NN/` an (NN = erste Zahl im Dateinamen des Blatts), mit einer `README.md`, die auf das Blatt verlinkt.
+- Für Module mit Lösungsordner = `ja` legt `sync.sh` pro Übungsblatt `<modul>/lösungen/übungszettel_NN/` an (NN = erste Zahl im Dateinamen des Blatts), mit einer `README.md`, die auf das Blatt verlinkt. In das PDF eingebettete Dateien (Vorlagen, Tests) werden mit `pdfdetach` nach `vorgabe/` entpackt; die eigene Lösung daneben anlegen, `vorgabe/` unverändert lassen.
 - Ordner **nur für Blätter anlegen, die erschienen sind**, also keine Ordner auf Vorrat. Bestehende Lösungsordner nie überschreiben oder löschen.
 - Ist die Nummer im Dateinamen nicht eindeutig, den Ordner von Hand anlegen und dem Nutzer Bescheid geben.
 
