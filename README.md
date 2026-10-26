@@ -2,10 +2,11 @@
 
 ## ToDo
 
-- [ ] **KIVS:** Vorlesung vom Do 22.10. nacharbeiten ([Folien](kivs/Folien))
-- [ ] **SysProg Blatt 1, A3:** String- und Byteblock-Funktionen ([Blatt](sysprog/Übungszettel/Uebungsblatt01.pdf), [Ordner](sysprog/lösungen/übungszettel_01)), nur zur Übung
-- [ ] **SysProg Blatt 1, A6:** Fehlersuche bei Speicherverwaltung, nur zur Übung
+- [x] **KIVS:** Vorlesung vom Do 22.10. nacharbeiten ([Folien](kivs/Folien))
+- [x] **SysProg Blatt 1, A3:** String- und Byteblock-Funktionen ([Blatt](sysprog/Übungszettel/Uebungsblatt01.pdf), [Ordner](sysprog/lösungen/übungszettel_01)), nur zur Übung
+- [x] **SysProg Blatt 1, A6:** Fehlersuche bei Speicherverwaltung, nur zur Übung
 - [ ] **KIVS Zettel 01** ([Blatt](kivs/Übungszettel/kivs2026ex01.pdf)), Abgabe **So 01.11., 23:59**, im GitLab-Repo
+- [ ] **SysProg Blatt 2** ([Blatt](sysprog/Übungszettel/Uebungsblatt02.pdf), [Ordner mit Vorlagen](sysprog/lösungen/übungszettel_02)): Springerproblem, Fehlersuche/Debugger, Hello World in Assembler. Abgabe **Fr 30.10., 23:59**, nur zur Übung
 
 Vorlesungsmaterialien, Übungen und Anki-Ablauf für meine Module im WS 2026/27.
 
