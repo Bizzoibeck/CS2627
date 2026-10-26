@@ -96,6 +96,7 @@ Pro Modul ein eigenes Deck (siehe Tabelle oben bzw. `courses.conf`). Für Anki-Z
   Code in `<pre><code>`, keine langen Folientexte.
 - Mischung: Verständnis („Warum …?“, „Was passiert, wenn …?“), Anwendung (kleiner Code-Ausschnitt
   oder kleine Rechnung) und Klausur-Muster (Aufgabentypen aus Altklausuren in Kartengröße).
+- **Kein Organisations- und Standardisierungswissen** (welches Gremium welche Schicht standardisiert, Standardnummern, Historie). Der Nutzer hält das nicht für klausurrelevant.
 - Hilfsmittel, die in der Klausur beiliegen (z. B. x86-Befehlsreferenz, Signaturenliste), nicht abfragen.
   Stattdessen die Anwendung abfragen (richtige Register, signed/unsigned, Fallstricke).
 - Tags: `claude`, `kap<N>` (z. B. `kap1`), `vl-<YYYY-MM-DD>` sowie die Quelle
