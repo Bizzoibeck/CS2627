@@ -33,6 +33,7 @@ SysProg hat zusätzlich `lösungen/übungszettel_NN/` für die eigene Bearbeitun
 |---|---|---|
 | **Fr 30.10.2026, 23:59** | SysProg | Übungsblatt 2 (Vorführung 02.–06.11.) |
 | **So 01.11.2026, 23:59** | KIVS | Übungszettel 01 (Präsentation 02.–04.11.) |
+| **Fr 06.11.2026, 23:59** | SysProg | Übungsblatt 3 (Vorführung 09.–13.11.) |
 
 In der Regel: SysProg-Blätter sind freitags 23:59 fällig, 9 Tage nach Erscheinen. KIVS-Blätter erscheinen donnerstags, Abgabe meist freitags 23:59. Details stehen in der jeweiligen Modul-README.
 

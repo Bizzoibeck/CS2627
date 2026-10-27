@@ -87,7 +87,10 @@ Literatur: Kernighan & Ritchie *The C Programming Language*; [C von A bis Z](htt
 | 26.–30.10.2026 | Vorführung Blatt 1 |
 | 27.10.2026 | VL: Ergänzung Speicherverwaltung `malloc` & `free` |
 | **30.10.2026 23:59** | **Abgabe Blatt 2** |
+| 27.10.2026 | Übungsblatt 3 (Systemaufruf-Wrapper für die Shell, gdb-Befehle, Debugging mit gdb, Bonus: Compiler-Optimierungen) |
 | 02.–06.11.2026 | Vorführung Blatt 2 |
+| **06.11.2026 23:59** | **Abgabe Blatt 3** |
+| 09.–13.11.2026 | Vorführung Blatt 3 |
 | ab 02.11.2026 | regelmäßige Übungen und Vorführungen |
 | 02.02.2027 | letzte Vorlesung |
 | **17.02.2027** | **Klausur, 1. Termin** (11–14 Uhr) |
