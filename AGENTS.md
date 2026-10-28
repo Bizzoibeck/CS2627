@@ -40,6 +40,7 @@ Die Skripte laufen unter macOS und Linux (bash und curl).
 
 ## Zugangsdaten
 
+- **Die Kursseiten sind nur noch aus dem Informatik-Netz bzw. per VPN erreichbar.** Schlägt ein Abgleich mit „Kursseite nicht erreichbar“ fehl, dem Nutzer **sofort und direkt sagen, dass er den VPN einschalten soll**, und danach erneut synchronisieren. Nicht auf Umwegen (Websuche, Archive) suchen.
 - Im Uni-Netz oder per VPN ist kein Login nötig. Von außerhalb liest `sync.sh` die Zugangsdaten aus `.env` (Vorlage: `.env.example`): standardmäßig `SYSPROG_USER`/`SYSPROG_PASS`, pro Modul überschreibbar mit `<ORDNER>_USER`/`<ORDNER>_PASS` (z. B. `KIVS_USER`).
 - `.env` ist gitignored. **Zugangsdaten niemals committen** und nicht in README, AGENTS.md oder andere getrackte Dateien schreiben.
 - Auf einem neuen Rechner: `cp .env.example .env` und die Werte eintragen. Der Nutzer kennt sie, sie stammen aus der 1. Vorlesung.

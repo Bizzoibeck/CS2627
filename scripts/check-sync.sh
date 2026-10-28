@@ -15,5 +15,6 @@ if out="$("$ROOT/scripts/sync.sh" 2>&1)"; then
   echo "[Sync] Falls neue Dateien geladen wurden: dem Nutzer mitteilen, README (Termine/Inhalte) prüfen und ggf. aktualisieren."
 else
   echo "[Sync] Abgleich fehlgeschlagen: $out"
+  echo "[Sync] Die Kursseiten sind nur aus dem Informatik-Netz erreichbar: Nutzer direkt bitten, den VPN einzuschalten."
 fi
 exit 0
