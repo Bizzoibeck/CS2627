@@ -2,3 +2,6 @@
 .DS_Store
 .page.html
 .last_sync
+
+# Eigenständige Abgabe-Repos (eigene Git-Repos, hier nicht tracken)
+kivs/abgabe/

@@ -13,7 +13,7 @@ Zugriff von außerhalb mit den KIVS-Zugangsdaten (`KIVS_USER`/`KIVS_PASS` in `.e
 | [Material/](Material) | Zusatzmaterial |
 | [anki/LOG.md](anki/LOG.md) | Für welche Vorlesungen es schon Anki-Karten gibt (Deck `KIVS`) |
 
-Übungen werden in separaten GitLab-Repos bearbeitet, nicht in diesem Repo. In den Übungsblättern sind Testdateien (`test.py`) und Beispieldaten eingebettet. Sie lassen sich mit `pdfdetach -saveall` oder in Okular, Evince bzw. Acrobat öffnen.
+Übungen werden in separaten GitLab-Repos bearbeitet. Das Abgaberepo kann nach `kivs/abgabe/` geklont werden; der Ordner ist von CS2627 per `.gitignore` ausgeschlossen. In den Übungsblättern sind Testdateien (`test.py`) und Beispieldaten eingebettet. Sie lassen sich mit `pdfdetach -saveall` oder in Okular, Evince bzw. Acrobat öffnen.
 
 ## Personen & Kontakt
 

@@ -60,7 +60,7 @@ Die Skripte laufen unter macOS und Linux (bash und curl).
 
 ### Modul-spezifisch
 
-- **KIVS:** Übungen werden in separaten GitLab-Repos bearbeitet, nicht hier. Keine Lösungsordner anlegen.
+- **KIVS:** Übungen werden in separaten GitLab-Repos bearbeitet, nicht hier. Keine Lösungsordner anlegen. Das GitLab-Abgaberepo darf nach `kivs/abgabe/` geklont werden; der Ordner ist in `.gitignore` ausgeschlossen und ist ein **eigenes Git-Repo**: Git-Befehle für die Abgabe dort ausführen (`git -C kivs/abgabe …`), nie dessen Inhalt in CS2627 committen.
 
 - **SysProg:** Übungsblätter werden in `sysprog/lösungen/übungszettel_NN/` bearbeitet; abgegeben wird über die Flavius-/GitLab-Repos der Gruppe. Bei Übungsaufgaben erklären statt fertige Lösungen liefern: Alle Gruppenmitglieder müssen ihre Abgabe im Detail erklären können, und in der Klausur gibt es keine LLMs.
 - **SysProg:** **Assembler nur in Intel-Syntax (NASM).** AT&T-Syntax ist nicht relevant, auch wenn Altklausuren sie verwenden: Aufgaben daraus nach Intel übertragen.
