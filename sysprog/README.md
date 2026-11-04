@@ -90,7 +90,10 @@ Literatur: Kernighan & Ritchie *The C Programming Language*; [C von A bis Z](htt
 | 27.10.2026 | Übungsblatt 3 (Systemaufruf-Wrapper für die Shell, gdb-Befehle, Debugging mit gdb, Bonus: Compiler-Optimierungen) |
 | 02.–06.11.2026 | Vorführung Blatt 2 |
 | **06.11.2026 23:59** | **Abgabe Blatt 3** |
+| 03.11.2026 | Übungsblatt 4 (gdb mit Assembler, Matrixaddition, Adressierung, `fork()`, Speicherverwaltung mit `malloc`/`free`); Folien Kap. 2.1 Prozesse |
 | 09.–13.11.2026 | Vorführung Blatt 3 |
+| **13.11.2026 23:59** | **Abgabe Blatt 4** |
+| 16.–20.11.2026 | Vorführung Blatt 4 |
 | ab 02.11.2026 | regelmäßige Übungen und Vorführungen |
 | 02.02.2027 | letzte Vorlesung |
 | **17.02.2027** | **Klausur, 1. Termin** (11–14 Uhr) |

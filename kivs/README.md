@@ -71,6 +71,9 @@ Zugriff von außerhalb mit den KIVS-Zugangsdaten (`KIVS_USER`/`KIVS_PASS` in `.e
 | 23.10.2026 | Übungszettel 01 (Flavius, Hello World, Wireshark-Analyse, Pfade im Internet, Grenzen der Kommunikation) |
 | **01.11.2026 23:59** | **Abgabe Zettel 01** (Ausnahme: Sonntag) |
 | 02.–04.11.2026 | Präsentation Zettel 01 in den Tutorien |
+| 29.10.2026 | Übungszettel 02 (Dämpfung und Verstärkung, Free Space Path Loss, Einflüsse auf Signale) |
+| **06.11.2026 23:59** | **Abgabe Zettel 02** |
+| 09.–11.11.2026 | Präsentation Zettel 02 in den Tutorien |
 | **19.02.2027** | **Erstklausur** (12–15 Uhr) |
 | **16.03.2027** | **Nachklausur** (9–12 Uhr) |
 
