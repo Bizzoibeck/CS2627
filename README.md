@@ -5,8 +5,16 @@
 - [x] **KIVS:** Vorlesung vom Do 22.10. nacharbeiten ([Folien](kivs/Folien))
 - [x] **SysProg Blatt 1, A3:** String- und Byteblock-Funktionen ([Blatt](sysprog/Übungszettel/Uebungsblatt01.pdf), [Ordner](sysprog/lösungen/übungszettel_01)), nur zur Übung
 - [x] **SysProg Blatt 1, A6:** Fehlersuche bei Speicherverwaltung, nur zur Übung
-- [ ] **KIVS Zettel 01** ([Blatt](kivs/Übungszettel/kivs2026ex01.pdf)), Abgabe **So 01.11., 23:59**, im GitLab-Repo
-- [ ] **SysProg Blatt 2** ([Blatt](sysprog/Übungszettel/Uebungsblatt02.pdf), [Ordner mit Vorlagen](sysprog/lösungen/übungszettel_02)): Springerproblem, Fehlersuche/Debugger, Hello World in Assembler. Abgabe **Fr 30.10., 23:59**, nur zur Übung
+- [x] **KIVS Zettel 01** ([Blatt](kivs/Übungszettel/kivs2026ex01.pdf))
+- [ ] **KIVS Zettel 02** ([Blatt](kivs/Übungszettel/kivs2026ex02.pdf)): Dämpfung/Verstärkung, Free Space Path Loss. Abgabe **Fr 06.11., 23:59**, im GitLab-Repo (zählt für die Zulassung)
+- [ ] **SysProg Blatt 3** ([Blatt](sysprog/Übungszettel/Uebungsblatt03.pdf), [Ordner](sysprog/lösungen/übungszettel_03)): Syscall-Wrapper, gdb, Compiler-Optimierungen. Geplant fürs Wochenende 07./08.11., nur zur Übung
+- [ ] **SysProg Blatt 4** ([Blatt](sysprog/Übungszettel/Uebungsblatt04.pdf), [Ordner](sysprog/lösungen/übungszettel_04)): gdb mit Assembler, Matrixaddition, Adressierung, `fork()`, **A5 Speicherverwaltung (klausurrelevant!)**. Frist Fr 13.11., nur zur Übung
+
+## Vor der Klausur nachholen
+
+Liegengebliebenes, das vor der Klausur noch angeschaut werden muss:
+
+- [ ] **SysProg Blatt 2** ([Blatt](sysprog/Übungszettel/Uebungsblatt02.pdf), [Ordner mit Vorlagen](sysprog/lösungen/übungszettel_02)): Springerproblem, Fehlersuche/Debugger, **Hello World in Assembler** (A3 am wichtigsten). Klausur SysProg: Mi 17.02.2027
 
 Vorlesungsmaterialien, Übungen und Anki-Ablauf für meine Module im WS 2026/27.
 

@@ -36,7 +36,8 @@ Die Skripte laufen unter macOS und Linux (bash und curl).
 2. **Termine aktuell halten:** Wochenplan, „Nächste Abgaben“ und Klausurtabelle in der Root-`README.md` sowie die Modul-READMEs pflegen. Offizielle Klausurtermine stehen unter <https://bamainfo.informatik.uni-bonn.de/public/pa/20262-pruefungen.html> (wird auf der Prüfungsamt-Seite eingebettet).
 3. **Neue Dateien melden:** Zeilen mit `NEU/AKTUALISIERT:` und `NEUER LÖSUNGSORDNER:` dem Nutzer mitteilen. Die neuen PDFs lesen (z. B. mit `pdftotext`) und die `README.md` des Moduls aktualisieren: Termine, Abgabefristen, Inhalte, Tabelle „Termine & Fristen“.
 4. **ToDo-Liste:** Oben in der Root-`README.md` steht die ToDo-Liste des Nutzers (`- [ ]`). Punkte nur auf seinen Wunsch ergänzen oder abhaken (`- [x]`) bzw. entfernen.
-5. **Committen:** Neue Materialien und README-Änderungen nur auf Wunsch des Nutzers committen.
+5. **Vor der Klausur nachholen:** Die gleichnamige Liste in der Root-`README.md` sammelt Liegengebliebenes. Wenn der Nutzer mit der Klausurvorbereitung beginnt, nach Lernplänen fragt oder eine Klausur weniger als 4 Wochen entfernt ist, ihn **aktiv an offene Punkte dieser Liste erinnern**.
+6. **Committen:** Neue Materialien und README-Änderungen nur auf Wunsch des Nutzers committen.
 
 ## Zugangsdaten
 
