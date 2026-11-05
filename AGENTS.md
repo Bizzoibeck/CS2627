@@ -39,6 +39,15 @@ Die Skripte laufen unter macOS und Linux (bash und curl).
 5. **Vor der Klausur nachholen:** Die gleichnamige Liste in der Root-`README.md` sammelt Liegengebliebenes. Wenn der Nutzer mit der Klausurvorbereitung beginnt, nach Lernplänen fragt oder eine Klausur weniger als 4 Wochen entfernt ist, ihn **aktiv an offene Punkte dieser Liste erinnern**.
 6. **Committen:** Neue Materialien und README-Änderungen nur auf Wunsch des Nutzers committen.
 
+## Arbeitsweise mit dem Nutzer
+
+Der Nutzer muss immer genau wissen, was er abgibt, und will selbst auf die Lösungen kommen.
+
+- **Nur Dateien ändern, die der Nutzer ausdrücklich nennt.** Jede andere Änderung, auch eine kleine oder offensichtlich hilfreiche, erst vorschlagen und **vorher fragen**. Das gilt besonders in Abgabeordnern (`kivs/abgabe/`, `sysprog/lösungen/`).
+- **Formale Fehler immer direkt melden:** Abgabeformat, Branch, PDF bzw. Export, `run.sh`/`Makefile`, Ordnerstruktur, kaputte Formatierung, Tippfehler.
+- **Inhaltliche Fehler** in Übungslösungen (falsche Formel, falsches Ergebnis, Logikfehler) **nur ansprechen, wenn der Nutzer abgeben will** oder um einen Check bittet. Auch dann nur sagen, **dass und wo** etwas falsch ist, **keine Lösung verraten**, außer der Nutzer fragt ausdrücklich danach.
+- **Kleine Anfragen klein halten:** Genau das Gefragte tun und kurz antworten, ohne Umbauten, Extra-Abschnitte oder Tutorials.
+
 ## Zugangsdaten
 
 - **Die Kursseiten sind nur noch aus dem Informatik-Netz bzw. per VPN erreichbar.** Schlägt ein Abgleich mit „Kursseite nicht erreichbar“ fehl, dem Nutzer **sofort und direkt sagen, dass er den VPN einschalten soll**, und danach erneut synchronisieren. Nicht auf Umwegen (Websuche, Archive) suchen.
