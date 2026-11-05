@@ -6,7 +6,7 @@
 - [x] **SysProg Blatt 1, A3:** String- und Byteblock-Funktionen ([Blatt](sysprog/Übungszettel/Uebungsblatt01.pdf), [Ordner](sysprog/lösungen/übungszettel_01)), nur zur Übung
 - [x] **SysProg Blatt 1, A6:** Fehlersuche bei Speicherverwaltung, nur zur Übung
 - [x] **KIVS Zettel 01** ([Blatt](kivs/Übungszettel/kivs2026ex01.pdf))
-- [ ] **KIVS Zettel 02** ([Blatt](kivs/Übungszettel/kivs2026ex02.pdf)): Dämpfung/Verstärkung, Free Space Path Loss. Abgabe **Fr 06.11., 23:59**, im GitLab-Repo (zählt für die Zulassung)
+- [x] **KIVS Zettel 02** ([Blatt](kivs/Übungszettel/kivs2026ex02.pdf)): Dämpfung/Verstärkung, Free Space Path Loss. Abgabe **Fr 06.11., 23:59**, im GitLab-Repo (zählt für die Zulassung)
 - [ ] **SysProg Blatt 3** ([Blatt](sysprog/Übungszettel/Uebungsblatt03.pdf), [Ordner](sysprog/lösungen/übungszettel_03)): Syscall-Wrapper, gdb, Compiler-Optimierungen. Geplant fürs Wochenende 07./08.11., nur zur Übung
 - [ ] **SysProg Blatt 4** ([Blatt](sysprog/Übungszettel/Uebungsblatt04.pdf), [Ordner](sysprog/lösungen/übungszettel_04)): gdb mit Assembler, Matrixaddition, Adressierung, `fork()`, **A5 Speicherverwaltung (klausurrelevant!)**. Frist Fr 13.11., nur zur Übung
 
