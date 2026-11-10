@@ -2,7 +2,6 @@ SECTION .data ; Definieren einer Daten sekttion
 
 str:	db `Hello world!\n` ;String definieren mit label str
 strlen:	equ $ - str ;Länge des strings durch vergleichen der addressen definieren mit label strlen
-
 num:	dq 1337; Eine Nummer definieren mitdem label num
 
 SECTION .text ; Code sektion
