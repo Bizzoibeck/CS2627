@@ -7,14 +7,17 @@
 - [x] **SysProg Blatt 1, A6:** Fehlersuche bei Speicherverwaltung, nur zur Übung
 - [x] **KIVS Zettel 01** ([Blatt](kivs/Übungszettel/kivs2026ex01.pdf))
 - [x] **KIVS Zettel 02** ([Blatt](kivs/Übungszettel/kivs2026ex02.pdf)): Dämpfung/Verstärkung, Free Space Path Loss. Abgabe **Fr 06.11., 23:59**, im GitLab-Repo (zählt für die Zulassung)
-- [ ] **SysProg Blatt 3** ([Blatt](sysprog/Übungszettel/Uebungsblatt03.pdf), [Ordner](sysprog/lösungen/übungszettel_03)): Syscall-Wrapper, gdb, Compiler-Optimierungen. Geplant fürs Wochenende 07./08.11., nur zur Übung
+- [ ] **KIVS:** Vorlesung vom Do 05.11. nacharbeiten ([Folien](kivs/Folien))
 - [ ] **SysProg Blatt 4** ([Blatt](sysprog/Übungszettel/Uebungsblatt04.pdf), [Ordner](sysprog/lösungen/übungszettel_04)): gdb mit Assembler, Matrixaddition, Adressierung, `fork()`, **A5 Speicherverwaltung (klausurrelevant!)**. Frist Fr 13.11., nur zur Übung
+- [ ] **KIVS Zettel 03** ([Blatt](kivs/Übungszettel/kivs2026ex03.pdf)): Dezibel-Umrechnung (praktisch), Nyquist-Plot, Fourier. Abgabe **Fr 13.11., 23:59**, im GitLab-Repo (zählt für die Zulassung)
+- [ ] **SysProg Blatt 5** ([Blatt](sysprog/Übungszettel/Uebungsblatt05.pdf), [Ordner](sysprog/lösungen/übungszettel_05)): `mymalloc`/`myfree`/`mycalloc`, glibc aus Assembler, Fibonacci rekursiv in Assembler. Frist Fr 20.11., nur zur Übung
 
 ## Vor der Klausur nachholen
 
 Liegengebliebenes, das vor der Klausur noch angeschaut werden muss:
 
-- [ ] **SysProg Blatt 2** ([Blatt](sysprog/Übungszettel/Uebungsblatt02.pdf), [Ordner mit Vorlagen](sysprog/lösungen/übungszettel_02)): Springerproblem, Fehlersuche/Debugger, **Hello World in Assembler** (A3 am wichtigsten). Klausur SysProg: Mi 17.02.2027
+- [ ] **SysProg Blatt 2** ([Blatt](sysprog/Übungszettel/Uebungsblatt02.pdf), [Ordner mit Vorlagen](sysprog/lösungen/übungszettel_02)): Springerproblem, Fehlersuche/Debugger. A3 (Hello World in Assembler) ist erledigt. Klausur SysProg: Mi 17.02.2027
+- [ ] **SysProg Blatt 3** ([Blatt](sysprog/Übungszettel/Uebungsblatt03.pdf), [Ordner](sysprog/lösungen/übungszettel_03)): Syscall-Wrapper, gdb, Bonus Compiler-Optimierungen. Syscalls und gdb sitzen nach eigener Einschätzung schon, kurz durchgehen reicht
 
 Vorlesungsmaterialien, Übungen und Anki-Ablauf für meine Module im WS 2026/27.
 
@@ -39,9 +42,9 @@ SysProg hat zusätzlich `lösungen/übungszettel_NN/` für die eigene Bearbeitun
 
 | Fällig | Modul | Blatt |
 |---|---|---|
-| **Fr 06.11.2026, 23:59** | **KIVS** | **Übungszettel 02** (Präsentation 09.–11.11.) |
-| Fr 06.11.2026, 23:59 | SysProg | Übungsblatt 3 (Vorführung 09.–13.11.) |
+| **Fr 13.11.2026, 23:59** | **KIVS** | **Übungszettel 03** (Präsentation 16.–18.11.) |
 | Fr 13.11.2026, 23:59 | SysProg | Übungsblatt 4 (Vorführung 16.–20.11.) |
+| Fr 20.11.2026, 23:59 | SysProg | Übungsblatt 5 (Vorführung 23.–27.11.) |
 
 In der Regel: SysProg-Blätter sind freitags 23:59 fällig, 9 Tage nach Erscheinen. KIVS-Blätter erscheinen donnerstags, Abgabe meist freitags 23:59. Details stehen in der jeweiligen Modul-README.
 

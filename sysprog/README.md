@@ -93,7 +93,10 @@ Literatur: Kernighan & Ritchie *The C Programming Language*; [C von A bis Z](htt
 | 03.11.2026 | Übungsblatt 4 (gdb mit Assembler, Matrixaddition, Adressierung, `fork()`, Speicherverwaltung mit `malloc`/`free`); Folien Kap. 2.1 Prozesse |
 | 09.–13.11.2026 | Vorführung Blatt 3 |
 | **13.11.2026 23:59** | **Abgabe Blatt 4** |
+| 10.11.2026 | Übungsblatt 5 (Speicherverwaltung `mymalloc`/`myfree`/`mycalloc` mit Free-Liste, glibc-Funktionen aus Assembler, Fibonacci rekursiv in 64-Bit-Assembler); Folien Kap. 2.2 Threads |
 | 16.–20.11.2026 | Vorführung Blatt 4 |
+| **20.11.2026 23:59** | **Abgabe Blatt 5** |
+| 23.–27.11.2026 | Vorführung Blatt 5 |
 | ab 02.11.2026 | regelmäßige Übungen und Vorführungen |
 | 02.02.2027 | letzte Vorlesung |
 | **17.02.2027** | **Klausur, 1. Termin** (11–14 Uhr) |
